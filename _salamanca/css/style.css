@@ -1,0 +1,128 @@
+@font-face{
+    font-family: Optima;
+    src: url(../fonts/OPTIMA.ttf);
+	/*NO PERMITE PONER TILDES*/
+}
+@font-face{
+    font-family: OptimaB;
+    src: url(../fonts/OPTIMA_B.ttf);
+	/*NO PERMITE PONER TILDES*/
+}
+@font-face{
+    font-family: OptimaMedium;
+    src: url(../fonts/OPTIMA_MEDIUM.ttf);
+}
+
+body {
+	font-family: OptimaMedium;
+	margin: 0;
+}
+
+.header {
+	background: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#525252));
+	color: white;
+	position: absolute;
+	width: 100%;
+	
+	/*Menú estático*/
+	/*position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 100;*/
+}
+	.header h1 {
+		text-align: center;
+		padding: 1rem 0.5rem 0 0.5rem;
+	}
+
+#logo_ruta {
+	padding: 0 3rem 0 1rem;
+}
+
+.container {
+	width: 90%;
+	max-width: 1370px;
+	margin: 0 auto;
+}
+.logo-nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main {
+	padding-top: 14rem;
+}
+
+.portada {
+	float: right;
+	width: 50%;
+	padding: 0 0 0 2%;
+}
+
+.titulo {
+	color: #525252;
+	font-size: 40px;
+	margin: 0;
+	line-height: 0;
+}
+
+.mural {
+	text-align: center;
+}
+.mural p {
+	text-align: justify;
+	font-size: 18px;
+	margin-right: 30px;
+	line-height: 20px;
+}
+.mural a {
+	text-align: center;
+}
+
+.logos {
+	display: block;
+	margin: auto;
+}
+
+footer {
+	padding: 3rem;
+}
+
+/*Estilos responsive*/
+@media screen and (max-width: 750px) {
+	.main {
+		padding-top: 10rem;
+	}
+	
+	.titulo {
+		font-size: 20px;
+	}
+	
+	.logos {
+		width: 75%;
+	}
+	
+	.header h1 {
+		font-size: 14px;
+	}
+	.header nav ul li a {
+		font-size: 10px;
+	}
+	
+	.mural p {
+		font-size: 14px;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.header h1 {
+		font-size: 10px;
+	}
+	.titulo {
+		font-size: 16px;
+	}
+}
