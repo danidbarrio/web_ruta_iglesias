@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!--Título-->
+		<title>Mapa - Ruta de los Murales de la Edad Moderna</title>
+		<!--Formatos-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+		<!--Icono-->
+		<link rel="icon" href="images/Icono_Ruta.ico" type="image/x-icon">
+		<!--Hojas de estilos-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+	</head>
+	
+	<body>
+		<header class="header">
+			<div class="container logo-nav-container">
+				<a href="los_templos.html" class="logo"><img src="images/Logo_Ruta.png" width="128px" ></a>
+				
+				<nav class="topnav" id="myTopnav">
+					<a href="index.html" class="inirutavisi">Inicio</a>
+					
+					<div class="dropdown active">
+						<button class="dropbtn">La ruta
+							<i class="fa fa-caret-down"></i>
+						</button>
+						
+						<div class="dropdown-content">
+							<a href="la_ruta.html">La ruta</a>
+							<a href="mapa.html" class="active">Mapa</a>
+							<a href="los_templos.html">Catálogo</a>
+						</div>
+					</div>
+					
+					<a href="https://www.jcyl.es/jcyl/patrimoniocultural/sayago/un-lugar.html" target="_blank"><p>Comarca de Sayago</p>Zamora</a>
+					<a href="_salamanca/conjunto.html" target="_blank"><p>Foco noroeste</p>Salamanca</a>
+					
+					<div class="dropdown">
+						<button class="dropbtn">Visitas virtuales
+							<i class="fa fa-caret-down"></i>
+						</button>
+						
+						<div class="dropdown-content">
+							<a href="visitas_virtuales/Aldeadavila/index.html" target="_blank">Aldeadávila</a>
+							<a href="https://www.jcyl.es/jcyl/patrimoniocultural/sayago/badilla.html" target="_blank">Badilla</a>
+							<a href="https://www.jcyl.es/jcyl/patrimoniocultural/sayago/carbellino.html" target="_blank">Carbellino</a>
+							<a href="visitas_virtuales/Muga_de_Alba/index.html" target="_blank">Muga de Alba</a>
+							<a href="https://www.jcyl.es/jcyl/patrimoniocultural/sayago/muga.html" target="_blank">Muga de Sayago</a>
+							<a href="visitas_virtuales/Villaseco_de_los_reyes/index.html" target="_blank">Villaseco de los Reyes</a>
+							<a href="https://www.jcyl.es/jcyl/patrimoniocultural/CarrascalDeVelanvelez/index.html" target="_blank">Carrascal de Velámbelez</a>
+						</div>
+					</div>
+					
+					<a href="videoguias/index.html" target="_blank" class="inirutavisi">Videoguías Accesibles</a>
+					
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+				</nav>
+			</div>
+		</header>
+		
+		<main class="main">
+			<div class="container">
+				<img class="mapa" src="images/Mapa.png" width="900px" height="660px" usemap="#mapaIglesias">
+				<map name="mapaIglesias">
+					<area href="Iglesias/iglesia1.html" title="Badilla" shape="rect" coords="2,4,76,78">
+					<area href="Iglesias/iglesia2.html" title="Carbellino" shape="rect" coords="84,4,158,78">
+
+					<area href="Iglesias/iglesia3.html" title="Muga de Sagayo" shape="rect" coords="2,86,76,162">
+					<area href="Iglesias/iglesia4.html" title="Palazuelo de Sagayo" shape="rect" coords="84,86,158,162">
+					
+					<area href="Iglesias/iglesia5.html" title="Torredefraes" shape="rect" coords="2,168,76,244">
+					<area href="Iglesias/iglesia6.html" title="Villamor de Ladre" shape="rect" coords="84,168,158,244">
+					
+					<area href="Iglesias/iglesia7.html" title="Villas del Buey" shape="rect" coords="2,252,76,328">
+					<area href="Iglesias/iglesia8.html" title="Muga de Alba" shape="rect" coords="84,252,158,328">
+					
+					<area href="Iglesias/iglesia9.html" title="Carrascal de Velambélez" shape="rect" coords="2,334,76,410">
+					<area href="Iglesias/iglesia10.html" title="La Vídola" shape="rect" coords="84,334,158,410">
+					
+					<area href="Iglesias/iglesia11.html" title="Picones" shape="rect" coords="2,418,76,494">
+					<area href="Iglesias/iglesia12.html" title="San Pelayo de la Guarreña" shape="rect" coords="84,418,158,494">
+					
+					<area href="Iglesias/iglesia13.html" title="Valsalabroso" shape="rect" coords="2,500,76,576">
+					<area href="Iglesias/iglesia14.html" title="Villamuerto" shape="rect" coords="84,500,158,576">
+					
+					<area href="Iglesias/iglesia15.html" title="Aldeadávila de la Ribera" shape="rect" coords="2,584,76,658">
+					<area href="Iglesias/iglesia16.html" title="Villaseco de los Reyes" shape="rect" coords="84,584,158,658">
+				</map>
+			</div>
+		</main>
+		
+		<footer>
+			<img class="logos" src="images/Logos.png" width="390px">
+		</footer>
+		<!--Scripts y JQuery-->
+		<script src="js/menu.js"></script>
+	</body>
+</html>
